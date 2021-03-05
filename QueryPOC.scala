@@ -1,5 +1,5 @@
 /*
-	This class reads Kafka a Kafka topic every time it is executed and is an example of the non-streaming approach
+	This class reads a Kafka topic every time it is executed and is an example of the non-streaming approach
 	Invoke as follows:
 	$ spark-submit --packages "org.apache.spark:spark-sql-kafka-0-10_2.12:3.0.2" --class main.scala.StreamingTest.QueryPOC target/scala-2.12/main-scala-streamingtest_2.12-1.0.jar
 */
